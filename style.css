@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+/* NAVBAR SECTION */
+.nav{
+    position: sticky;
+    top: 0.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-radius: 30px;
+    border-bottom: 1px solid #dddddd;
+    height: 10rem;
+    padding: 0 20rem;
+    margin: 0.5rem 1.5rem;
+
+    background-color: #fff;   
+}
+.nav .nav-link{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.nav .nav-link-logo{
+    font-family: 'Amatic SC',sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: #2176FF;
+}
+/* NAVBAR SECTION END */
+
+/* MAIN SECTION STARTS */
+.main{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("https://images.unsplash.com/photo-1418290232843-5d7a0bd93f7d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+    background-size: cover;
+    height: 90vh;
+    margin-top: -11rem;
+}
+.main .head-texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30rem;
+}
+.main .head-texts .d1{
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 17rem;
+    margin:0;
+}
+.main .head-texts .d2{
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    line-height: 6rem;
+    font-size: 200px;
+    color: #2176FF;
+    margin:0;
+}
+.main .head-texts a{
+    color:blue;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20rem auto;
+    width: fit-content;
+}
+/* MAIN SECTION ENDS */
+
+/* CONTENT SECTION STARTS */
+.content{
+    background-image: url('https://content.codecademy.com/courses/learn-links-and-buttons/project/mountain1.jpg');
+    background-size: cover; 
+    height: 105vh; 
+    font-family: 'Raleway';
+    padding: 5% 10% 0 10%;
+    border-bottom: 1px solid #dddddd;
+}
+.content span{
+    color: blue;
+}
+.content h3{
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    text-align: center;
+    color: #2176FF;
+    margin-bottom: 2rem;
+}
+.content p{
+    font-size: 20px;
+    text-align: start;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+/* CONTENT SECTION ENDS */
+
+/* ACTIVITIES SECTION STARTS */
+.activities{
+    padding: 5% 10% 0 10%;  
+    border-bottom: 1px solid #ddd;
+}
+.activities h3{
+    color: #2176FF;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Amatic SC';
+
+    margin-bottom: 2rem;
+}
+.activities .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 5%;
+}
+.activities .box-container .box{
+    background-color: #2176FF;
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    margin: 1rem;
+    color: #fff;
+
+    width: 260px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ACTIVITIES SECTION ENDS */
+
+/* FOOTER SECTION STARS */
+.footer{
+    background-color: #2176FF;
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 20px;
+    color:#fff;
+    height: 100px;
+    text-align: center;
+    display: flex;
+}
+.footer span{
+    margin: auto auto;
+}
+/* FOOTER SECTION ENDS */
